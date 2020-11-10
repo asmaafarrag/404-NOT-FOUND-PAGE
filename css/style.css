@@ -1,0 +1,146 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+
+body{
+
+display:flex;
+flex-direction:column;
+
+}
+
+h1{
+font-size:3rem;
+line-height:40px;
+letter-spacing:-0.035em;
+margin-bottom:4rem;
+
+}
+
+
+p{
+
+font-size:2.4rem;
+}
+
+
+/* header*/
+
+header{
+
+font-family:"Inconsolate" , monospace;
+
+padding:4rem 7.7rem;
+line-height:25px;
+letter-spacing:-0.08;
+}
+
+
+
+/* section */
+
+
+section{
+
+flex:auto;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:30px 50px;
+
+}
+
+.img{
+
+flex:1;
+padding:20px 20px;
+
+}
+
+
+.info p{
+
+line-height:40px;
+letter-spacing:-0.035em;
+width:100%;
+margin-bottom :4rem;
+
+
+}
+
+
+button{
+
+cursor:pointer;
+border:0;
+background-color:#333;
+color:white;
+font-size:1rem;
+padding: 1.9rem 2rem;
+
+
+}
+
+
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 2.6rem 0;
+  font-size: 1.4rem;
+  line-height: 17px;
+}
+
+
+@media only screen and (max-width:700px){
+
+
+h1 {
+  font-size: 2rem;
+  line-height: 40px;
+  letter-spacing: -0.035em;
+  margin-bottom: 2.9rem;
+}
+
+/* Header */
+
+header {
+  padding: 2rem 2.4rem;
+line-height:40px;
+}
+
+/* Main */
+
+section {
+  flex-direction: column;
+  margin-left: 2.3rem;
+}
+
+.img img {
+  width: 100%;
+  padding: 50px 20px;
+height:500px;
+
+}
+
+.info p {
+  font-size: 1.8rem;
+  line-height: 40px;
+  letter-spacing: -0.035em;
+  margin-bottom: 6.7rem;
+  width: auto;
+}
+
+button {
+  margin-bottom: 8rem;
+font-size:.8rem;
+padding: 1.6rem 1.7rem;
+font-weight:bold;
+
+}
+
+
+}
